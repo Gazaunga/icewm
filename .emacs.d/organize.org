@@ -1,0 +1,4 @@
+* Tasks
+** TODO asd
+   [2018-04-29 Sun]
+   [[file:~/dots/emacs/.emacs.d/README.org::*The%20glorious%20ORG-mode][The glorious ORG-mode]]
