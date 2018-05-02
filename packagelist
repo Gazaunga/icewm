@@ -27,6 +27,6 @@ ttf-all-the-icons
 screenfetch
 zsh
 lightdm
-lightdm-webkit-greeter
+lightdm-webkit2-greeter
 irssi
 j4-dmenu-desktop
