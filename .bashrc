@@ -28,6 +28,14 @@ echo
 
 ## BASH ##
 
+if [[ "$TERM" == *rxvt* ]]; then
+   exec zsh
+fi
+
+#if [[ "$TERM" == *rxvt* ]]; then
+#   exec xonsh
+#fi
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
