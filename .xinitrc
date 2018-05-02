@@ -1,0 +1,2 @@
+dunst &
+exec icewm-session
