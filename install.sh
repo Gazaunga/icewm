@@ -6,3 +6,5 @@ readarray -t LINES < "$FILE"
 for LINE in "${LINES[@]}"; do
 trizen -Syu --noconfirm $LINE
 done
+
+mmaker -f --no-legacy --no-debian icewm
