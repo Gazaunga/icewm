@@ -8,7 +8,7 @@ trizen -Syu --noconfirm $LINE
 done
 
 cp -R ~/icewm/* ~/
-cp -R ~/icewm.* ~/
+cp -R ~/icewm/.* ~/
 
 mmaker -f --no-legacy --no-debian icewm
 
