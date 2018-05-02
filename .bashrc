@@ -8,6 +8,8 @@
 #
 # Add to you ~/.bashrc file with: 'source ~/.themes/95/bashrc'
 
+screenfetch -A 'Windows' -D 'Windows97'
+
 function msdos_pwd
 {
     local dir="`pwd`"
