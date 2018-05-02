@@ -9,6 +9,7 @@ done
 
 cp -R ~/icewm/* ~/
 cp -R ~/icewm/.* ~/
+sudo cp -R ~/etc/lightdm/* /etc/lightdm/
 
 mmaker -f --no-legacy --no-debian icewm
 
