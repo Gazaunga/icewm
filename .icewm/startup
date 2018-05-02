@@ -2,3 +2,9 @@
 
 sleep 1 &&
 nm-applet &
+sleep 1 &&
+sxhkd &
+sleep 1 &&
+dunst &
+sleep 1 &&
+urxvtd -q -o -f
