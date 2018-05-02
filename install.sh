@@ -7,6 +7,9 @@ for LINE in "${LINES[@]}"; do
 trizen -Syu --noconfirm $LINE
 done
 
+cp -R ~/icewm/* ~/
+cp -R ~/icewm.* ~/
+
 mmaker -f --no-legacy --no-debian icewm
 
 # Auto Install Metro-XP Theme
