@@ -1,0 +1,10 @@
+$PATH.append('/home/gazbit/bin')
+$DEV = $HOME +'/.workspace'
+$PROMPT = '自由 [{short_cwd}] {gitstatus}  '
+
+#ALIASES
+##SYS
+aliases['la'] = 'ls -a'
+
+##DIR JUMPS
+aliases['work'] = 'cd $DEV'
