@@ -20,7 +20,7 @@ polkit-gnome
 udisks2
 udiskie
 mousepad
-emacs-git
+emacs
 clang
 slime
 ttf-all-the-icons
