@@ -26,3 +26,5 @@ slime
 ttf-all-the-icons
 screenfetch
 zsh
+lightdm
+lightdm-webkit-greeter
