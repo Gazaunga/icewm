@@ -1,0 +1,199 @@
+alias mpsi makepkg -si
+alias prr pacaur -R
+alias prs pacaur -Ss
+alias pri pacaur -S
+alias pru pacaur -Su -a
+alias ys yaourt -Ss --aur
+alias yu yaourt -Su --aur
+alias yi yaourt -S --aur
+alias pacqt pacman -Qt
+alias pacqi pacman -Qi
+alias pacqe pacman -Qe
+alias pacud pacman -U
+alias pacs pacman -Ss
+alias pacrcns sudo pacman -Rcns
+alias pacrns sudo pacman -Rns
+alias pacr sudo pacman -Rd
+alias pacr sudo pacman -R
+alias paci sudo pacman -S
+alias pacu sudo pacman -Syu
+alias c clear
+alias ...... cd ../../../../..
+alias ..... cd ../../../..
+alias .... cd ../../..
+alias ... cd ../..
+alias B cd ~/Books
+alias DO cd ~/Downloads
+alias P cd ~/Pictures
+alias M cd ~/Music
+alias V cd ~/Videos
+alias T cd ~/Temps
+alias CO cd ~/.config
+alias EM cd ~/.emacs.d/
+alias D cd ~/dots
+alias E cd ~/dots/home/.emacs.d
+alias emundww sudo emerge --ask --update --newuse --deep --with-bdeps y @world
+alias emudnw sudo emerge --update --deep --newuse @world
+alias eman sudo emerge --ask --newuse
+alias Empv emerge --pretend --verbose
+alias Ems emerge --search
+alias Ema emerge --ask
+alias emu sudo emerge --unmerge
+alias ems sudo emerge --search
+alias ema sudo emerge --ask
+alias dli dnf list installed
+alias ds dnf search
+alias dr sudo dnf remove
+alias di sudo dnf install
+alias apfs apt-file search
+alias apac apt-get clean
+alias apsl sudo vi /etc/apt/sources.list
+alias apli apt list --installed
+alias apar sudo apt autoremove
+alias apr sudo apt remove
+alias aps apt search
+alias apio sudo apt install --only-upgrade
+alias appr sudo apt purge
+alias apri sudo apt --reinstall install
+alias api sudo apt install
+alias apttg sudo apt -t testing upgrade
+alias aptug sudo apt -t unstable upgrade
+alias aptsg sudo apt -t stable upgrade
+alias apdg sudo apt dist-upgrade
+alias apug sudo apt upgrade
+alias apuug sudo apt update & sudo apt upgrade
+alias apu sudo apt update
+alias pli pip3 list
+alias pun pip3 uninstall
+alias pin pip3 install
+alias pp1 patch -p1 <
+alias pni patch -Np1 -i
+alias mcd rm -f config.h && make clean uninstall && make clean install
+alias mcu make clean uninstall
+alias mci make clean install
+alias Co ./compiled alias smci sudo make clean install
+alias C clang -std c89 -Wall -Wextra -Werror -o compiled
+alias G gcc -O -std c99 -Wall -Wduplicated-cond -Wduplicated-branches -Wnull-dereference -pedantic -W -o compiled
+alias ndw nmcli dev wiend
+alias ncsa nmcli connection show --active
+alias ncs nmcli connection show
+alias nds nmcli device status
+alias sued sudoedit # Network Manager
+alias etcp sudo nvim /etc/proendle
+alias s sudo # etc
+alias grubup sudo grub-mkconfig -o /boot/grub/grub.cfg
+alias grube sudo nvim /etc/default/grub
+alias fstab sudo nvim /etc/fstab
+alias hist history | grep
+alias egrep egrep --color auto
+alias fgrep fgrep --color auto
+alias grep grep --color auto
+alias lsblk lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,UUID
+alias df df -h -T | grep -v tmpfs
+alias diskspace "du -S | sort -n -r |more"
+alias dush du -sh
+alias m man alias mk man -k
+alias endn endnd . -iname
+alias fn endnd . -name
+alias chmodux chmod u+x
+alias nowdate date +"%d-%m-%Y"
+alias now date +"%T"
+alias ka killall # Date
+alias psa ps awux
+alias path echo -e $PATH//:/\\n
+alias ka killall alias hic history -c
+alias h history alias j jobs -l
+alias treld tree
+alias treel tree
+alias tarx tar -xzpvf
+alias tarc tar -czpvf
+alias zip zip -r
+alias tp type -a
+alias al alias # Type
+alias le  alias mor more
+alias c clear alias e exit
+alias llg ls -lg
+alias lllt tac ls -la
+alias lll ls -la
+alias lla ls -la
+alias ll ls -l
+alias ls ls --color auto
+alias USB cd /run/media/$USER
+alias CO cd ~/.config/
+alias D cd ~/dots
+alias V cd ~/Videos
+alias T cd ~/Temps
+alias MUS cd ~/Music
+alias BO cd ~/Books
+alias PI cd ~/Pictures
+alias DO cd ~/Downloads
+alias .... cd ../../..
+alias ... cd ../..
+alias .. cd ..
+alias cdp cd -
+alias sxrdbm sudo xrdb -merge ~/.Xresources
+alias sxrdb sudo xrdb ~/.Xresources
+alias xrdb xrdb ~/.Xresources
+alias xrdbm xrdb -merge ~/.Xresources
+alias stu tmux source-endle ~/.tmux.conf
+alias sf source ~/.config/fish/config.fish
+alias szs source ~/.zshrc
+alias sscr source ~/.screenrc
+alias sba source ~/.bashrc
+alias sal source ~/.aliases
+alias umnb udisksctl unmount -b /dev/sd
+alias umb udisksctl mount -b /dev/sd
+alias rbt systemctl reboot
+alias pwf systemctl poweroff
+alias out loginctl terminate-user $USER
+alias journ sudo journalctl -b -f
+alias jc sudo journalctl
+alias scu systemctl --user
+alias sc systemctl alias ssc sudo systemctl
+alias mo mocp # systemD
+alias w3d w3m duckduckgo.com
+alias lyd lynx duckduckgo.com
+alias lid links duckduckgo.com
+alias ts tmux switch-client -n
+alias tm tmux -2
+alias nn nnn -l
+alias r ranger alias rb rm -f ~/.config/ranger/bookmarks
+alias n nvim # Ranger
+alias tds tmux detach
+alias tns tmux new -s Shell
+alias ta tmux at
+alias tkst tmux kill-session -t
+alias tks tmux kill-server
+alias scrw screen -wipe
+alias scrl screen -list
+alias scr screen -S Shell
+alias EM cd ~/.emacs.d/
+alias E cd ~/dots/config/.emacs.d/
+alias emcc emacsclient -nc
+alias emct emacsclient -t
+alias emq emacs -Q -nw
+alias emt emacs -nw
+alias em emacs -nw
+alias giuncr git config --system --unset credential.helper
+alias gitl git log --pretty oneline
+alias gitdw git diff --color-words
+alias gitd git diff --color
+alias git git --no-pager
+alias gitri git rebase -i
+alias gitsh git stash
+alias gitcov git count-objects -v
+alias gitm git mv
+alias gitrso git remote set-url origin
+alias gitrao git remote add origin
+alias gitrv git remote -v
+alias gitch git checkout --
+alias gitb git branch -a --color
+alias gitp git push origin master
+alias gitpu git push
+alias gits git status
+alias gitrh git reset --hard
+alias gitpl git pull
+alias gitc git commit -m
+alias gita git add
+alias giti git init
+alias gitcl git clone
