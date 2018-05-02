@@ -58,7 +58,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias src='source ~/.bashrc'
-alias ls="bash ~/bin/devicons"
+#alias ls="bash ~/bin/devicons"
 alias fuck="sudo !!"
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 alias path='echo $PATH | tr -s ":" "\n"'
@@ -84,7 +84,7 @@ gacp () {
   git push -u origin HEAD
 }
 
-def clean() {
+clean() {
 rm -rf "$HOME/.cache/"
 rm -rf "$HOME/.thumbnails"
 rm -rf "$HOME/.local/share/Trash"
