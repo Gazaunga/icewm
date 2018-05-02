@@ -1,4 +1,4 @@
-sxhkd &
-dunst &
-urxvtd -q -o -f
+#sxhkd &
+#dunst &
+#urxvtd -q -o -f
 exec icewm-session
