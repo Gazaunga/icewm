@@ -1,0 +1,17 @@
+## ┌─┐─┐ ┬┬ ┬┬┌─┌┬┐
+## └─┐┌┴┬┘├─┤├┴┐ ││
+## └─┘┴ └─┴ ┴┴ ┴─┴┘
+
+## -- sxhkd hotkeys --
+
+## terminal
+alt + Return
+	xterm
+
+## program launcher
+alt + p
+	j4-dmenu-desktop --dmenu="dmenu -i -fn 'fira-10' -l 10"
+
+## reload sxhkd config
+super + Escape
+	pkill -USR1 -x sxhkd
