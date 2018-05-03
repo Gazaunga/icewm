@@ -103,3 +103,5 @@ st.cwscale:     1.1
 st.chscale:     1.1
 st.bellvolume:  0
 st.borderpx:    10px
+
+URxvt.scrollBar: false
