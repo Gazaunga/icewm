@@ -1,0 +1,2 @@
+key "Alt+Enter" xterm # Return?
+key "Alt+d" j4-dmenu-desktop --dmenu="dmenu -i -fn 'fira-10' -l 10"
