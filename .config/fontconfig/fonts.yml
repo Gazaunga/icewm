@@ -1,0 +1,55 @@
+fontconfig: 
+ match: 
+  - 
+   edit: 
+    bool: true
+    _mode: assign
+    _name: hinting
+   _target: font
+  - 
+   edit: 
+    const: hintslight
+    _mode: assign
+    _name: hintstyle
+   _target: font
+  - 
+   edit: 
+    const: rgb
+    _mode: assign
+    _name: rgba
+   _target: font
+  - 
+   edit: 
+    bool: true
+    _mode: assign
+    _name: antialias
+   _target: font
+  - 
+   edit: 
+    const: lcddefault
+    _mode: assign
+    _name: lcdfilter
+   _target: font
+  - 
+   edit: 
+    bool: false
+    _mode: assign
+    _name: autohint
+   _target: font
+  - 
+   test: 
+    const: medium
+    _compare: more
+    _name: weight
+   edit: 
+    bool: false
+    _mode: assign
+    _name: autohint
+   _target: font
+  - 
+   edit: 
+    bool: false
+    _mode: assign
+    _name: embeddedbitmap
+   _target: font
+ dir: "~/.fonts"
