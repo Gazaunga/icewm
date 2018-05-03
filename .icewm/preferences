@@ -1,0 +1,10 @@
+QuickSwitch = 1
+ShowWorkspaceStatusAfterSwitch = 1
+AutoReloadMenus = 1
+TaskBarAutoHide = 0
+TaskBarShowStartMenu = 1
+TaskBarShowWindowListMenu
+WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
+#WinMenuItems=rmsnxfhualyticw   #Default menu
+#WinMenuItems=rmsnxfhualytickw  #Menu with all possible options
+WinMenuItems=rmsnxc            #MS-Windows menu
