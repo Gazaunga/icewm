@@ -45,6 +45,7 @@ apps = %w[
   xorg
   xonsh
   vlc
+  termite
 ]
 
 atom_packages = %w[
