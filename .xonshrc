@@ -8,3 +8,6 @@ aliases['la'] = 'ls -a'
 
 ##DIR JUMPS
 aliases['work'] = 'cd $DEV'
+aliases['..'] = 'cd ..'
+aliases['fuck'] = 'sudo !!'
+aliases['feh-set'] = 'feh --bg-fill'
