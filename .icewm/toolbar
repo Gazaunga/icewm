@@ -1,1 +1,1 @@
-prog "xterm" 
+prog "XTerm" xterm x-terminal-emulator
